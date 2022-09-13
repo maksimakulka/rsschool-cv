@@ -4,7 +4,7 @@
    Okulko Maksim
 
 2. Contact Info:
-- e-mail: maxim_okulko@mail.ru
+- e-mail: maksim.akulka@gmail.com
 - Skype: maxim_okulko@mail.ru
 - Telegram: @ Maxim_Okulko
 
