@@ -1,12 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="icon" href="assets/favicon_cv.ico">
 </head>
+
 <body>
-    <p></p>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class=" nav-item "><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class=" nav-item "><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class=" nav-item "><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="/img/Akulka.jpg" alt="logo" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Maxim Akulka</h1>
+                    <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Minsk, Belarus</li>
+                    <li>Email
+                        <a href="mailto:maxim_okulko@mail.ru" title="email">maxim_okulko@mail.ru</a>
+                    </li>
+                    <li>Github
+                        <a href="https://github.com/MaximOkulko" title="github">MaximOkulko</a>
+                    </li>
+                    <li>Telegram
+                        <a href="https://t.me/wanderlust_Mx" title="github">@wanderlust_Mx</a>
+                    </li>
+                    <li>Discord
+                        <a href="https://discord.com/invite/zUr7wWYPXE" title="github">Maxim Okulko#3770</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Web-development:<span>HTML5, CSS3, JavaScript</span></li>
+                    <li>Frameworks and libraries: <span>React</span> </li>
+                    <li>Version control: <span>GIT, Github</span></li>
+                    <li>Graphics: <span>Figma, Adobe Illustrator</span></li>
+                </ul>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>Pre-intermediate (A2)</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Belarusian State Agrarian Technical University</p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>Online tutorial <span>learn.javascript.ru</span> </li>
+                    <li>IT school Myfreedom- <span>Front-end for beginners</span></li>
+                    <li>EPAM- <span>UpSkill Lab</span> </li>
+                    <li>It-incubator <span>Front-end courses</span> </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for
+                    me. I have completed several training projects and now I would like to take part in the creation of
+                    a real JavaScript project. My goal
+                    is to learn a pure JavaScript at a good level and learn the React library. I will be glad to join
+                    the creation of open source projects. I would like to work under the guidance of an experienced
+                    developer to gain practical experience.</p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="code">
+                    <code>
+                            function startGame(){ <br>
+                                scoreBoard.textContent = 0;<br>
+                                timeUp = false;<br>
+                                score = 0;<br>
+                                jumpKenny();<br>
+                                setTimeout(() => (timeUp = true), 15000) <br>
+                            }
+                        </code>
+
+                </div>
+
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li>
+                        <a href="https://funny-kitsune-d6fa52.netlify.app/ " target="_blank">Singolo</a>
+                    </li>
+                    <li>
+                        <a href="https://glowing-jalebi-c57450.netlify.app/" target="_blank">Canvas</a>
+                    </li>
+                    <li>
+                        <a href="https://frabjous-melomakarona-740096.netlify.app/" target="_blank">PhotoEditor</a>
+                    </li>
+                    <li>
+                        <a href="https://gentle-treacle-f41541.netlify.app/" target="_blank">DynamicLandingPage</a>
+                    </li>
+                    <li>
+                        <a href="https://bright-meringue-c81718.netlify.app/" target="_blank">FlexPanelGallery</a>
+                    </li>
+                    <li>
+                        <a href="https://spectacular-profiterole-c546db.netlify.app//" target="_blank">DrumKit</a>
+                    </li>
+                    <li>
+                        <a href="https://benevolent-belekoy-7dd917.netlify.app/" target="_blank">KennyGame</a>
+                    </li>
+                    <li>
+                        <a href="https://silly-fudge-43032a.netlify.app/" target="_blank">VideoSpeedController</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <span>
+                September 2022
+            </span>
+            <a href="https://github.com/MaximOkulko" target="_blank"><img
+                    src="/img/GitHub-Mark-32px.png" alt="Github"></a>
+        </div>
+        <div class="rs_school">
+            <a href="https://rs.school/js/" target="_blank"> <img src="/img/rs_school.svg" alt="rs_school"></a>
+        </div>
+    </footer>
 </body>
+
 </html>
