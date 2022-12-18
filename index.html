@@ -30,7 +30,7 @@
     <main>
         <div class="container main-container">
             <section class="section section-profile" id="profile">
-                <img src="/img/Akulka.jpg" alt="logo" class="section-profile-logo">
+                <img src="img/Akulka.jpg" alt="logo" class="section-profile-logo">
                 <div class="section-profile-title">
                     <h1 class="section-title main-title">Maxim Akulka</h1>
                     <h3 class="section-subtitle">Junior Front-End Developer</h3>
@@ -63,6 +63,14 @@
                     <li>Graphics: <span>Figma, Adobe Illustrator</span></li>
                 </ul>
             </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>Pre-intermediate (A2)</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Belarusian State Agrarian Technical University</p>
+            </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
                 <ul>
@@ -71,10 +79,6 @@
                     <li>EPAM- <span>UpSkill Lab</span> </li>
                     <li>It-incubator <span>Front-end courses</span> </li>
                 </ul>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-                <p>Belarusian State Agrarian Technical University</p>
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
@@ -87,65 +91,63 @@
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <pre class="pre">
+                <div class="code">
                     <code>
-                        function numberPress(number) {
-                            if (memoryNewNumber) {
-                            display.value = number;
-                            memoryNewNumber = false; } else {
-                            if (display.value === zero) {
-                            display.value = number;
-                            } else {
-                            display.value += number;
+                            function startGame(){ <br>
+                                scoreBoard.textContent = 0;<br>
+                                timeUp = false;<br>
+                                score = 0;<br>
+                                jumpKenny();<br>
+                                setTimeout(() => (timeUp = true), 15000) <br>
                             }
-                            }
-                            }
-                    </code>
-                </pre>
+                        </code>
+
+                </div>
+
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
                 <ul>
                     <li>
-                        <a href="https://funny-kitsune-d6fa52.netlify.app/">Singolo</a>
+                        <a href="https://funny-kitsune-d6fa52.netlify.app/ " target="_blank">Singolo</a>
                     </li>
                     <li>
-                        <a href="https://glowing-jalebi-c57450.netlify.app/">Canvas</a>
+                        <a href="https://glowing-jalebi-c57450.netlify.app/" target="_blank">Canvas</a>
                     </li>
                     <li>
-                        <a href="https://frabjous-melomakarona-740096.netlify.app/">PhotoEditor</a>
+                        <a href="https://frabjous-melomakarona-740096.netlify.app/" target="_blank">PhotoEditor</a>
                     </li>
                     <li>
-                        <a href="https://gentle-treacle-f41541.netlify.app/">DynamicLandingPage</a>
+                        <a href="https://gentle-treacle-f41541.netlify.app/" target="_blank">DynamicLandingPage</a>
                     </li>
                     <li>
-                        <a href="https://bright-meringue-c81718.netlify.app/">FlexPanelGallery</a>
+                        <a href="https://bright-meringue-c81718.netlify.app/" target="_blank">FlexPanelGallery</a>
                     </li>
                     <li>
-                        <a href="https://spectacular-profiterole-c546db.netlify.app//">DrumKit</a>
+                        <a href="https://spectacular-profiterole-c546db.netlify.app//" target="_blank">DrumKit</a>
                     </li>
                     <li>
-                        <a href="https://benevolent-belekoy-7dd917.netlify.app/">KennyGame</a>
+                        <a href="https://benevolent-belekoy-7dd917.netlify.app/" target="_blank">KennyGame</a>
                     </li>
                     <li>
-                        <a href="https://silly-fudge-43032a.netlify.app/">VideoSpeedController</a>
+                        <a href="https://silly-fudge-43032a.netlify.app/" target="_blank">VideoSpeedController</a>
                     </li>
                 </ul>
             </section>
-            <section class="section" id="english">
-                <h2 class="section-title">English</h2>
-                <p>Pre-intermediate (A2)</p>
-            </section>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <div>
-                <span>© 2022 </span>
-                <a href="https://github.com/MaximOkulko">MaximOkulko</a>
-            </div>
-            <a href="https://rs.school/js/"></a>
+    <footer class="footer">
+        <div>
+            <span>
+                September 2022
+            </span>
+            <a href="https://github.com/maksimakulka" target="_blank"><img
+                    src="img/GitHub-Mark-32px.png" alt="Github"></a>
+        </div>
+        <div class="rs_school">
+            <a href="https://rs.school/js/" target="_blank"> <img src="img/rs_school.svg" alt="rs_school"></a>
         </div>
     </footer>
 </body>
+
 </html>
