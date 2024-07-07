@@ -134,6 +134,15 @@ body {
     padding: 10px;
 }
 
+.year{
+    margin: 0px 15px 0px 0px;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+}
+
 .rs_school {
     width: 70px;
 }
